@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="site.css" rel="stylesheet">
+</head>
+<body>
+  <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light">
+    <div id="navbar" class="container-fluid">
+      <a class="navbar-brand" href="site.html"><img id="img" src="Images/logo.png" width="40" height="40"> KeyMod</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="site.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="shop.html">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        
+          
+        </ul>
+        <form class="d-flex">
+          <input id="search"class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button id="button" class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link">Login<img id="icons"src="Images/login.png" width="20" height="20"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Cart<img id="icons"src="Images/cart.png" width="20" height="20"
+            > </a>
+
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+ 
+  <div id="content" >
+    <div id="left" >
+      <div class="filterbox"> <h5>Browse Products</h5>
+      <p>View all<br>Most Popular<br>Best Reviewed<br>Frequently Purchased<br></p>
+      </div>
+      <div class="filterbox">
+      <h5>Prices and Price Ranges</h5>
+      <p>Under $25<br>$25 to $50<br>$50 to $100<br>$100 to $200<br>$200 and above</p>
+      <input id="input" type="number" placeholder="$min"><input id="input" type="number" placeholder="$max"><button id="shopbutton" >Go</button>
+      </div>
+   
+      <div class="filterbox">
+      <h5>Deals and Discounts</h5>
+      <p>All Discounts <br>Today's Deals</p>
+      </div>
+      <div class="filterbox">
+      <h5>Popular Color Schemes</h5>
+      <p>Red and Blue<br>Green and Blue<br>Pink and Purple<br>Orange and Purple<br>Yellow and White<br>Blue and Purple<br>Black and Red</p>
+      </div>
+    </div>
+    <br>
+    <div id="right">
+      
+      <div id="sbox1" class="boxes"><p>$200</p></div>
+      <div id="sbox2" class="boxes"><p>$150</p></div>
+      <div id="sbox3" class="boxes"><p>$220</p></div>
+      <div id="sbox4" class="boxes"><p>$179</p></div>
+      <div id="sbox5" class="boxes"><p>$210</p></div>
+      <div id="sbox6" class="boxes"><p>$130</p></div>
+      <div id="sbox7" class="boxes"><p>$160</p></div>
+      <div id="sbox8" class="boxes"><p>$200</p></div>
+      <div id="sbox9" class="boxes"><p>$120</p></div>
+    </div>
+    
+  </div>
+  <div  class="text-center">
+  <h6>Page 1 of 3</h6>
+  <button id="pbutton">1</button> <button id="pbutton">2</button> <button id="pbutton">3</button>
+  </div>
+  <br>
+  <br>
+  <footer>
+    <div id="fRow" class="row">
+      <div id="foot1"> <img id="img"class="img-fluid" src="Images/logo.png" width="100" height="80"><br><p>The customer is at heart of our unique business model.</p></div>      <div id="foot2"><h5>Shopping</h5><p>Tredning Keyboards<br>Accessories<br>Sale</p></div>
+      <div id="foot3"><h5>Contact us</h5><p>Phone: 623-824-1624<br>Email: adelga289@west-mec.org</p></div>
+      <div id="foot4" ><h5>Newsletter</h5><p>Be the first to know about new arrivals, sales, and special promotions. <br></p><input type="text" placeholder="Email:"><button>Subscribe</button> </div>
+    </div> 
+  </footer>
+
+
+
+  
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>

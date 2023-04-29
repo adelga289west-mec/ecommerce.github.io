@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="site.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav id="nav" class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <div id="navbar" class="container-fluid">
+      <a class="navbar-brand" href="site.html"><img id="img" src="Images/logo.png" width="40" height="40"> KeyMod</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="site.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="shop.html">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+
+
+        </ul>
+        <form class="d-flex">
+          <input id="search" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button id="button" class="nav-item" type="submit">Search</button>
+        </form>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link">Login<img id="icons" src="Images/login.png" width="20" height="20"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Cart<img id="icons" src="Images/cart.png" width="20" height="20"> </a>
+
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselcontainer">
+    <button id="arrow" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
+          aria-label="Slide 3"></button>
+      </div>
+      <div id="inner" class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="5000">
+          <img id="cimg1" src="Images/ckeyboard1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>High Quality</h5>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img id="cimg2" src="Images/ckeyboard2.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Long Lasting</h5>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img id="cimg3" src="Images/ckeyboard3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Made For You</h5>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img id="cimg4" src="Images/ckeyboard4.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Choose Your Style</h5>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img id="cimg5" src="Images/ckeyboard5.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>100% Custom and Unique</h5>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img id="cimg6" src="Images/keyboard1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Hundreds of Boards</h5>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img id="cimg7" src="Images/ckeyboard7.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Stunning Selections</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button id="arrow" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <div id="tRow" class="row">
+    <div id="box1" class="fBoxs">
+      <h1 class="text-start  fw-bold ">Discover Your Unique Style</h1><br>
+      <p>Choose from hundreds of designs and find what works for you. Can't find a favorite? Contact us and we can work
+        on a special mod that meets your expectations. </p>
+    </div>
+    <div id="box2" class="fBoxs">
+
+    </div>
+  
+
+ 
+    <div id="box3"class="fBoxs"></div>
+    <div id="box4"class="fBoxs">
+      <h1 class="text-start  fw-bold">Quality You Can Feel</h1><br>
+      <p id="textwidth">All of our custom modded boards are built with only the highest quality materials. Our focus is
+        to provide you with an amazing looking, great feeling, and long lasting board able to withstand even the hardest
+        of drops, spills, or rage punches that get thrown in its way. </p>
+    </div>
+  </div>
+  <br>
+  <h2 id="atf" class="text-start fs-1 fw-bold text-center">Best Sellers</h2>
+  <br>
+  <div id="iRow" class="row">
+    <div id="item1" class="items"></div>
+    <div id="item2" class="items"></div>
+    <div id="item3" class="items"></div>
+    <div id="item4" class="items"></div>
+  </div>
+  <br>
+  <br>
+  <footer id="fRow" class="row ">
+    <div id="foot1"> <img id="img" class="img-fluid" src="Images/logo.png" width="100" height="80"><br>
+      <p>The customer is at heart of our unique business model.</p>
+    </div>
+    <div id="foot2">
+      <h5>Shopping</h5>
+      <p>Trending Keyboards<br>Accessories<br>Sale</p>
+    </div>
+    <div id="foot3">
+      <h5>Contact us</h5>
+      <p>Phone: 623-824-1624<br>Email: adelga289@west-mec.org</p>
+    </div>
+    <div id="foot4">
+      <h5>Newsletter</h5>
+      <p>Be the first to know about new arrivals, sales, and special promotions. <br></p><input type="text"
+        placeholder="Email:"><button>Subscribe</button>
+    </div>
+
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

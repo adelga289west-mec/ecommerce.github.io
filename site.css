@@ -1,0 +1,612 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+@media (min-width:720px){
+#navbar{
+    background-image: linear-gradient(to right, rgb(5, 220, 220), rgb(2, 120, 120));
+    min-height:70px;
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+#img{
+    margin-bottom:20px;
+}
+
+#nav{margin: 0; padding:0}
+.nav-item{
+    transition: 0.2s;
+    border-radius: 15px;
+}
+.nav-item:hover{
+    background-color: rgb(3, 120, 135);
+    border-radius: 15px;
+}
+
+#input{
+    width:100px;
+}
+#shopbutton{
+    width:30px;
+}
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+#tRow{
+    width: 100%;
+    height: auto;
+    
+}
+#box1{
+    width: 100%;
+}
+
+
+#iRow, #fRow{
+    justify-content: space-evenly;
+}
+#fRow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+#box1{
+    width: 50%;
+    height: 500px;
+    background-image: linear-gradient(to bottom right, rgb(182, 173, 162),  rgb(247, 237, 224));
+    display: flex;
+    align-items: center;
+}
+#box1 h1, #box4 h1{
+    font-size: 65px;
+    color:   rgb(2, 108, 108);;
+}
+#box1 p, #box4 p{
+    font-size: 18px;
+}
+#box2{
+    width: 50%;
+    height: 500px;
+    background-image: url(Images/keyboard2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ 
+}
+#box3{
+    width: 50%;
+    height: 500px;
+    background-image: url(Images/keyboarda.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#box4{
+    width: 50%;
+    height: 500px;
+    background-image: linear-gradient(to bottom right, rgb(247, 237, 225), rgb(161, 152, 142) );
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+#textwidth{
+    width: 90%;
+}
+#item1, #item2, #item3, #item4{
+    width:250px;
+    height:250px;
+    transition:0.5s;
+}
+#item1:hover, #item2:hover, #item3:hover, #item4:hover{
+    transform: scale(1.05,1.05);
+}
+footer{
+    height:auto;
+    width:100vw;
+    background-color: rgb(4, 157, 157);
+    padding-top:10px;
+
+    
+    
+}
+#foot1,#foot2,#foot3,#foot4{
+    width:20%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:2%;
+
+    font-size: 12px;
+    text-align: center;
+}
+#foot2,#foot3, #foot4{
+    margin-top:50px;
+}
+#foot4 input, #foot4 button{
+    width:auto;
+}
+
+
+#search{
+    width:50vw;
+    background-color: rgb(241, 240, 240);
+    border: none;
+}
+#atf{
+    color:rgb(2, 108, 108)
+}
+#icons{
+    margin-left:5px;
+}
+#content{
+    width:70%;
+    height:auto;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+#left{
+    width: 30%;
+    height: 800px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+#right{
+    width:70%;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    ;
+}
+.boxes{
+    width:28%;
+    height:23%;
+    transition: 0.5s;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.boxes:hover{
+    transform: scale(1.1,1.1);
+}
+#contactContent{
+    width:90%;
+    height: 700px;
+    margin: auto;
+    display: flex;  
+    justify-content: space-evenly; 
+}
+#left-content{
+    width:40%;
+
+    height: 200px;
+}
+#right-content{
+    width: 50%;
+    height: 100%;
+    margin-top:55px;  
+}
+#CU{
+    color: rgb(4, 157, 157);
+}
+.items{
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 265px;
+
+}
+#item1{
+    background-image: url(Images/keyboard4.png);
+ 
+
+
+}
+#item2{
+    background-image: url(Images/keyboard5.png);
+
+ 
+}
+#item3{
+    background-image: url(Images/keyboard6.png);
+
+  
+}
+#item4{
+    background-image: url(Images/keyboard7.png);
+
+
+}
+#carouselcontainer{
+    width:100%;
+    height:auto;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    background-color: rgb(135, 160, 160);
+   
+}
+#cimg1{
+    background-image: url(Images/ckeyboard1.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+ 
+}
+
+#carouselExampleInterval{
+    width: 70%;
+    height: auto;
+    margin: auto;
+}
+#arrow{
+    background-color: rgb(135, 160, 160);
+    height: auto;
+    width: 15%;
+    border: none; 
+
+}
+
+#boxheaders{
+    font-size: 75px;
+    text-align:start;
+}
+#sbox1{
+    background-image: url(Images/skeyboard1.jpg);
+   
+}
+#sbox2{
+    background-image: url(Images/skeyboard2.jpg);
+ 
+}
+#sbox3{
+    background-image: url(Images/skeyboard3.jpg);
+   
+}
+#sbox4{
+    background-image: url(Images/skeyboard4.jpg);
+
+}
+#sbox5{
+    background-image: url(Images/skeyboard5.jpg);
+
+    
+}
+#sbox6{
+    background-image: url(Images/skeyboard6.jpg);
+ 
+}
+#sbox7{
+    background-image: url(Images/skeyboard7.jpg);
+
+}
+#sbox8{
+    background-image: url(Images/skeyboard8.jpg);
+  
+}
+#sbox9{
+    background-image: url(Images/skeyboard9.jpg);
+   
+}
+
+#pbutton{
+    width: 30px;
+    
+}
+#button{
+    border: 2px solid black;
+    color: white;
+}
+#accordion{
+    width: 90%;
+    margin: auto;
+}
+.homeheaders{
+    font-size: 65px;
+    font-weight: bold;
+}
+#frame{
+    width: 300px;
+    height: 300px;
+}
+.filterbox{
+    width: 100%;
+    height: auto;
+}
+}
+
+@media (max-width:800px){
+  
+*{
+    margin:0;
+    padding:0;
+
+}
+
+    #fRow{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+    #img{
+        margin-bottom:20px;
+    }
+
+    
+    #foot1, #foot2, #foot3, #foot4{
+        width: 300px;
+        height: auto;
+        border-bottom: 5px solid rgb(3, 120, 135);
+    }
+    #tRow{
+        margin: auto;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    #frame{
+        width: 100%;
+        height: 300px;
+    }
+    footer{
+        height:auto;
+        width:100%;
+        background-color: rgb(4, 157, 157);  
+   
+        
+    }
+    #fRow{
+     
+        text-align: center;
+    }
+    #box1 h1, #box4 h1{
+        color:rgb(2, 108, 108);
+    }
+    .items{
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 300px;
+        margin: auto;
+      
+        transition: 0.3s;
+    
+    }
+    .items:hover{
+        transform: scale(1.1,1.1);
+    }
+    #item1{
+        background-image: url(Images/keyboard4.png);
+     
+    
+    
+    }
+    #item2{
+        background-image: url(Images/keyboard5.png);
+    
+     
+    }
+    #item3{
+        background-image: url(Images/keyboard6.png);
+    
+      
+    }
+    #item4{
+        background-image: url(Images/keyboard7.png);
+        
+    
+    
+    }
+    #navbar{
+        background-image: linear-gradient(to right, rgb(5, 220, 220), rgb(2, 120, 120));
+        min-height:70px;
+        height: auto;
+        width: 100vw;
+        margin: 0 ;
+        padding: 0;
+    }
+    
+    #nav{margin: 0; padding:0}
+    .nav-item{
+        transition: 0.2s;
+        border-radius: 15px;
+    }
+    .nav-item:hover{
+        background-color: rgb(3, 120, 135);
+        border-radius: 15px;
+    }
+    #input{
+        width:100px;
+    }
+    #shopbutton{
+        width:30px;
+    }
+
+#carouselcontainer{
+    width:100vw;
+    height:auto;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    background-color: rgb(135, 160, 160);
+   
+}
+#cimg1{
+    background-image: url(Images/ckeyboard1.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+ 
+}
+
+#carouselExampleInterval{
+    width: 70%;
+    height: auto;
+    margin: auto;
+}
+#arrow{
+    background-color: rgb(135, 160, 160);
+    height: auto;
+    width: 15%;
+    border: none; 
+}
+#tRow{
+    width: 100vw;
+}
+#box1, #box2, #box3, #box4{
+    width: 100%;
+    transition: 0.5s;
+
+}
+
+#box1{
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(to bottom right, rgb(182, 173, 162),  rgb(247, 237, 224));
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+#box2{
+    width: 100%;
+    height: 300px;
+    background-image: url(Images/keyboard2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+ 
+}
+#box3{
+    width: 100%;
+    height:300px;
+    background-image: url(Images/keyboarda.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+#box4{
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(to bottom right, rgb(247, 237, 225), rgb(161, 152, 142) );
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+} 
+#CU{
+    color: rgb(4, 157, 157);
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.filterbox{
+    width: 50%;
+}
+#left{
+    width: 100%;
+    margin: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+#right{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.boxes{
+    width:30%;
+    height:23%;
+    transition: 0.5s;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.boxes:hover{
+    transform: scale(1.1,1.1);
+}
+#sbox1{
+    background-image: url(Images/skeyboard1.jpg);
+   
+}
+#sbox2{
+    background-image: url(Images/skeyboard2.jpg);
+ 
+}
+#sbox3{
+    background-image: url(Images/skeyboard3.jpg);
+   
+}
+#sbox4{
+    background-image: url(Images/skeyboard4.jpg);
+
+}
+#sbox5{
+    background-image: url(Images/skeyboard5.jpg);
+
+    
+}
+#sbox6{
+    background-image: url(Images/skeyboard6.jpg);
+ 
+}
+#sbox7{
+    background-image: url(Images/skeyboard7.jpg);
+
+}
+#sbox8{
+    background-image: url(Images/skeyboard8.jpg);
+  
+}
+#sbox9{
+    background-image: url(Images/skeyboard9.jpg);
+   
+}
+}
